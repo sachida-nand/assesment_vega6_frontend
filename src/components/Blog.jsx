@@ -209,7 +209,7 @@ function Blog() {
 
                             <h3 className="text-xl font-bold">{blog.blog_title}</h3>
                             <p className="text-gray-700">{blog.blog_sescriptions}</p>
-                            <p className="text-gray-400 text-sm">Posted on: {new Date(blog.created_at).toLocaleDateString()}</p>
+                            <p className="text-gray-400 text-sm">Posted on: {new Date(blog.createdAt).toLocaleDateString()}</p>
 
                             {/* Buttons for View, Edit, and Delete */}
                             <div className="mt-4 flex space-x-2">
